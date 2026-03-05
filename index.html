@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-wrapper">
+            <div class="logo-input">
+                <h1>morent</h1>
+                <div class="input">
+                    <img class="search-icon" src="./car-rent/assets/images/search-normal.png" alt="search">
+                    <input type="text" placeholder="Search something here">
+                    <img class="settings-icon" src="./car-rent/assets/images/filter.png" alt="">
+                </div>
+            </div>
+            <div class="navigation">
+
+                <ul>
+                    <li><img src="./car-rent/assets/images/Like.png" alt="like icon"></li>
+                    <li class="notification"><img src="./car-rent/assets/images/notification(1).png"
+                            alt="notification icon"></li>
+                    <li><img src="./car-rent/assets/images/setting-2.png" alt="settings icon"></li>
+                    <li><img src="./car-rent/assets/images/avata.png" alt="avatar"></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="card-wrapper">
+                <div class="expensive-car">
+                    <h2>The Best Platform for Car Rental</h2>
+                    <p>Ease of doing a car rental safely and reliably. Of course at a low price.</p>
+                    <div> <button>Rental Car</button></div>
+                    <img src="./car-rent/assets/images/expensive-car.png" alt="">
+                </div>
+                <div class="budget-car">
+                    <h2>Easy way to rent a car at a low price</h2>
+                    <p>Providing cheap car rental services and safe and comfortable facilities.</p>
+                    <div> <button>Rental Car</button> </div>
+                    <img src="./car-rent/assets/images/budget-car.png" alt="">
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <section>
+        <div class="container">
+            <div class="order-wrapper">
+                <div class="pick-up">
+                    <input type="radio" name="color" value="red"> Pick Up
+                    <div class="location-wrapper">
+                        <div class="each-location">
+                            <label for="locations">Location</label>
+                            <select name="city" id="city">
+
+                                <option value="select">Select Yout City</option>
+                                <option value="Tbilisi">Tbilisi</option>
+                                <option value="Batumi">Batumi</option>
+                                <option value="Kutaisi">Kutaisi</option>
+                            </select>
+                        </div>
+
+
+
+                        <div class="each-location">
+                            <label for="date">Date</label>
+                            <input type="text" id="date" placeholder="Select your date" onfocus="this.type='date'"
+                                onblur="if(!this.value) this.type='text'">
+                        </div>
+                        <div class="each-location">
+                            <label for="date">Time</label>
+                            <input type="text" id="date" placeholder="Select your date" onfocus="this.type='date'"
+                                onblur="if(!this.value) this.type='text'">
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <div class="arrows">
+                    <button><img src="./car-rent/assets/images/Swap.png" alt=""></button>
+                </div>
+                <div class="pick-up">
+                    <input type="radio" name="color" value="red"> Drop of
+                    <div class="location-wrapper">
+                        <div class="each-location">
+                            <label for="locations">Location</label>
+                            <select name="city" id="city">
+
+                                <option value="select">Select Yout City</option>
+                                <option value="Tbilisi">Tbilisi</option>
+                                <option value="Batumi">Batumi</option>
+                                <option value="Kutaisi">Kutaisi</option>
+                            </select>
+
+                        </div>
+                        <div class="line"></div>
+
+
+                        <div class="each-location">
+                            <label for="date">Date</label>
+                            <input type="text" id="date" placeholder="Select your date" onfocus="this.type='date'"
+                                onblur="if(!this.value) this.type='text'">
+
+                        </div>
+                        <div class="each-location">
+                            <label for="date">Time</label>
+                            <input type="text" id="date" placeholder="Select your date" onfocus="this.type='date'"
+                                onblur="if(!this.value) this.type='text'">
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <article>
+        <div class="container">
+            <div class="cards-header">
+                <p>Popular car</p>
+                <span>View all</span>
+            </div>
+            <div class="cards-wrapper">
+                <div class="card">
+                    <div class="Koenigsegg">
+                        <p>Koenigsegg</p>
+                        <img src="./car-rent/assets/images/Vector.jpg" alt="heart">
+                    </div>
+                    <p class="sport">sport</p>
+                    <img src="./car-rent/assets/images/Koenigsegg.png" alt="" class="car-image">
+                    <div class="car-description">
+                        <div class="each-description"> <img src="./car-rent/assets/images/gas-station.png" alt="gas">
+                            <span>90L</span>
+                        </div>
+                        <div class="each-description"><img src="./car-rent/assets/images/circle.png" alt="circle">
+                            <span>Manual</span>
+                        </div>
+                        <div class="each-description"> <img src="./car-rent/assets/images/profile-2user.png"
+                                alt="passenger">
+                            <span>2 People</span>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>$99.00/<span>day</span> </p>
+
+                        <button>RENT NOW</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="Koenigsegg">
+                        <p>Nissan GT - R</p>
+                        <img src="./car-rent/assets/images/Vector.jpg" alt="heart">
+                    </div>
+                    <p class="sport">sport</p>
+                    <img src="./car-rent/assets/images/nissan.png" alt="" class="car-image">
+                    <div class="car-description">
+                        <div class="each-description"> <img src="./car-rent/assets/images/gas-station.png" alt="gas">
+                            <span>80L</span>
+                        </div>
+                        <div class="each-description"><img src="./car-rent/assets/images/circle.png" alt="circle">
+                            <span>Manual</span>
+                        </div>
+                        <div class="each-description"> <img src="./car-rent/assets/images/profile-2user.png"
+                                alt="passenger">
+                            <span>2 People</span>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div class="price-p">
+                            <p>$80.00/<span>day</span> </p>
+                            <span>$100.00</span>
+                        </div>
+                        <button>RENT NOW</button>
+                    </div>
+
+                </div>
+                    <div class="card-group"> 
+                   <div class="card">
+                    <div class="Koenigsegg">
+                        <p>Rolls - Royce</p>
+                        <img src="./car-rent/assets/images/Vector.jpg" alt="heart">
+                    </div>
+                    <p class="sport">sport</p>
+                    <img src="./car-rent/assets/images/rolss-royce.png" alt="" class="car-image">
+                    <div class="car-description">
+                        <div class="each-description"> <img src="./car-rent/assets/images/gas-station.png" alt="gas">
+                            <span>90L</span>
+                        </div>
+                        <div class="each-description"><img src="./car-rent/assets/images/circle.png" alt="circle">
+                            <span>Manual</span>
+                        </div>
+                        <div class="each-description"> <img src="./car-rent/assets/images/profile-2user.png"
+                                alt="passenger">
+                            <span>2 People</span>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>$99.00/<span>day</span> </p>
+
+                        <button>RENT NOW</button>
+                    </div>
+                </div>
+                </div>
+                                    <div class="card-group"> 
+
+                    <div class="card">
+                    <div class="Koenigsegg">
+                        <p>Nissan GT - R</p>
+                        <img src="./car-rent/assets/images/Vector.jpg" alt="heart">
+                    </div>
+                    <p class="sport">sport</p>
+                    <img src="./car-rent/assets/images/nissan.png" alt="" class="car-image">
+                    <div class="car-description">
+                        <div class="each-description"> <img src="./car-rent/assets/images/gas-station.png" alt="gas">
+                            <span>80L</span>
+                        </div>
+                        <div class="each-description"><img src="./car-rent/assets/images/circle.png" alt="circle">
+                            <span>Manual</span>
+                        </div>
+                        <div class="each-description"> <img src="./car-rent/assets/images/profile-2user.png"
+                                alt="passenger">
+                            <span>2 People</span>
+                        </div>
+                    </div>
+                    
+                    <div class="price">
+                        <div class="price-p">
+                            <p>$80.00/<span>day</span> </p>
+                            <span>$100.00</span>
+                        </div>
+                        <button>RENT NOW</button>
+                    </div>
+
+                </div>
+        </div>    
+        </div>     
+                                     
+        <p class="recomened">recomened</p>
+
+                        <div class="cards-wrapper"> 
+                            <div class="card-group"> 
+                 <div class="card">
+                    <div class="Koenigsegg">
+                        <p>All New Rush</p>
+                        <img src="./car-rent/assets/images/Vector.jpg" alt="heart">
+                    </div>
+                    <p class="sport">sport</p>
+                    <img src="./car-rent/assets/images/rush.png" alt="" class="car-image">
+                    <div class="car-description">
+                        <div class="each-description"> <img src="./car-rent/assets/images/gas-station.png" alt="gas">
+                            <span>90L</span>
+                        </div>
+                        <div class="each-description"><img src="./car-rent/assets/images/circle.png" alt="circle">
+                            <span>Manual</span>
+                        </div>
+                        <div class="each-description"> <img src="./car-rent/assets/images/profile-2user.png"
+                                alt="passenger">
+                            <span>2 People</span>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>$99.00/<span>day</span> </p>
+
+                        <button>RENT NOW</button>
+                    </div>
+                </div>
+                </div>
+                                    <div class="card-group"> 
+
+                <div class="card">
+                    <div class="Koenigsegg">
+                        <p>CR  - V</p>
+                        <img src="./car-rent/assets/images/Vector.jpg" alt="heart">
+                    </div>
+                    <p class="sport">Suv</p>
+                    <img src="./car-rent/assets/images/crv.png" alt="" class="car-image">
+                    <div class="car-description">
+                        <div class="each-description"> <img src="./car-rent/assets/images/gas-station.png" alt="gas">
+                            <span>80L</span>
+                        </div>
+                        <div class="each-description"><img src="./car-rent/assets/images/circle.png" alt="circle">
+                            <span>Manual</span>
+                        </div>
+                        <div class="each-description"> <img src="./car-rent/assets/images/profile-2user.png"
+                                alt="passenger">
+                            <span>2 People</span>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div class="price-p">
+                            <p>$80.00/<span>day</span> </p>
+                            <span>$100.00</span>
+                        </div>
+                        <button>RENT NOW</button>
+                    </div>
+
+                </div>
+                </div>
+                                    <div class="card-group"> 
+
+                   <div class="card">
+                    <div class="Koenigsegg">
+                        <p>All New Terios</p>
+                        <img src="./car-rent/assets/images/Vector.jpg" alt="heart">
+                    </div>
+                    <p class="sport">sport</p>
+                    <img src="./car-rent/assets/images/terios.png" alt="" class="car-image">
+                    <div class="car-description">
+                        <div class="each-description"> <img src="./car-rent/assets/images/gas-station.png" alt="gas">
+                            <span>90L</span>
+                        </div>
+                        <div class="each-description"><img src="./car-rent/assets/images/circle.png" alt="circle">
+                            <span>Manual</span>
+                        </div>
+                        <div class="each-description"> <img src="./car-rent/assets/images/profile-2user.png"
+                                alt="passenger">
+                            <span>2 People</span>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>$99.00/<span>day</span> </p>
+
+                        <button>RENT NOW</button>
+                    </div>
+                </div>
+                </div>
+                                    <div class="card-group"> 
+
+                    <div class="card">
+                    <div class="Koenigsegg">
+                        <p>CR  - V</p>
+                        <img src="./car-rent/assets/images/Vector.jpg" alt="heart">
+                    </div>
+                    <p class="sport">sport</p>
+                    <img src="./car-rent/assets/images/crv2.png" alt="" class="car-image">
+                    <div class="car-description">
+                        <div class="each-description"> <img src="./car-rent/assets/images/gas-station.png" alt="gas">
+                            <span>80L</span>
+                        </div>
+                        <div class="each-description"><img src="./car-rent/assets/images/circle.png" alt="circle">
+                            <span>Manual</span>
+                        </div>
+                        <div class="each-description"> <img src="./car-rent/assets/images/profile-2user.png"
+                                alt="passenger">
+                            <span>2 People</span>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div class="price-p">
+                            <p>$80.00/<span>day</span> </p>
+                            <span>$100.00</span>
+                        </div>
+                        <button>RENT NOW</button>
+                    </div>
+
+                </div>
+                
+                
+                </div>
+                 <div class="cards-wrapper"> 
+                            <div class="card-group"> 
+                 <div class="card">
+                    <div class="Koenigsegg">
+                        <p>MG ZX Exclusice</p>
+                        <img src="./car-rent/assets/images/Vector.jpg" alt="heart">
+                    </div>
+                    <p class="sport">sport</p>
+                    <img src="./car-rent/assets/images/exclu.png" alt="" class="car-image">
+                    <div class="car-description">
+                        <div class="each-description"> <img src="./car-rent/assets/images/gas-station.png" alt="gas">
+                            <span>90L</span>
+                        </div>
+                        <div class="each-description"><img src="./car-rent/assets/images/circle.png" alt="circle">
+                            <span>Manual</span>
+                        </div>
+                        <div class="each-description"> <img src="./car-rent/assets/images/profile-2user.png"
+                                alt="passenger">
+                            <span>2 People</span>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>$99.00/<span>day</span> </p>
+
+                        <button>RENT NOW</button>
+                    </div>
+                </div>
+                </div>
+                                    <div class="card-group"> 
+
+                <div class="card">
+                    <div class="Koenigsegg">
+                        <p>New MG ZS</p>
+                        <img src="./car-rent/assets/images/Vector.jpg" alt="heart">
+                    </div>
+                    <p class="sport">Suv</p>
+                    <img src="./car-rent/assets/images/mg.png" alt="" class="car-image">
+                    <div class="car-description">
+                        <div class="each-description"> <img src="./car-rent/assets/images/gas-station.png" alt="gas">
+                            <span>80L</span>
+                        </div>
+                        <div class="each-description"><img src="./car-rent/assets/images/circle.png" alt="circle">
+                            <span>Manual</span>
+                        </div>
+                        <div class="each-description"> <img src="./car-rent/assets/images/profile-2user.png"
+                                alt="passenger">
+                            <span>2 People</span>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div class="price-p">
+                            <p>$80.00/<span>day</span> </p>
+                            <span>$100.00</span>
+                        </div>
+                        <button>RENT NOW</button>
+                    </div>
+
+                </div>
+                </div>
+                                    <div class="card-group"> 
+
+                   <div class="card">
+                    <div class="Koenigsegg">
+                        <p>MG ZX Excite</p>
+                        <img src="./car-rent/assets/images/Vector.jpg" alt="heart">
+                    </div>
+                    <p class="sport">sport</p>
+                    <img src="./car-rent/assets/images/zx.png" alt="" class="car-image">
+                    <div class="car-description">
+                        <div class="each-description"> <img src="./car-rent/assets/images/gas-station.png" alt="gas">
+                            <span>90L</span>
+                        </div>
+                        <div class="each-description"><img src="./car-rent/assets/images/circle.png" alt="circle">
+                            <span>Manual</span>
+                        </div>
+                        <div class="each-description"> <img src="./car-rent/assets/images/profile-2user.png"
+                                alt="passenger">
+                            <span>2 People</span>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>$99.00/<span>day</span> </p>
+
+                        <button>RENT NOW</button>
+                    </div>
+                </div>
+                </div>
+                                    <div class="card-group"> 
+
+                    <div class="card">
+                    <div class="Koenigsegg">
+                        <p>New MG ZS</p>
+                        <img src="./car-rent/assets/images/Vector.jpg" alt="heart">
+                    </div>
+                    <p class="sport">sport</p>
+                    <img src="./car-rent/assets/images/mg2.png" alt="" class="car-image">
+                    <div class="car-description">
+                        <div class="each-description"> <img src="./car-rent/assets/images/gas-station.png" alt="gas">
+                            <span>80L</span>
+                        </div>
+                        <div class="each-description"><img src="./car-rent/assets/images/circle.png" alt="circle">
+                            <span>Manual</span>
+                        </div>
+                        <div class="each-description"> <img src="./car-rent/assets/images/profile-2user.png"
+                                alt="passenger">
+                            <span>2 People</span>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div class="price-p">
+                            <p>$80.00/<span>day</span> </p>
+                            <span>$100.00</span>
+                        </div>
+                        <button>RENT NOW</button>
+                    </div>
+
+                </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="Show-more">
+        <button  >Show more car</button>
+        <span>120 car</span>
+        </div>
+    </article>
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="logo-footer"> <p> Morent</p> 
+                <span>Our vision is to provide convenience and help increase your sales business.</span>
+                    </div>
+                    <div class="footer-desc">
+                        <div class="footer-flex"> 
+                        <div class="line-wrapper"> 
+                        <p class="title">Community</p>
+                        <ul>
+                             <li>How it works</li>
+                            <li>features</li>
+                            <li>Partnership</li>
+                            <li>Busines relation</li>
+                        </ul>
+                        </div> 
+                        <div class="line-wrapper"> 
+
+                          <p class="title">About</p>
+                        <ul>
+                             <li>Events</li>
+                            <li>Blog</li>
+                            <li>Partnership</li>
+                            <li>Busines relation</li>
+                        </ul>
+                        </div>
+                     <div class="line-wrapper"> 
+                          <p class="title">Social</p>
+                        <ul>
+                             <li>Discord</li>
+                            <li>Instagram</li>
+                            <li>Twitter</li>
+                            <li>Facebook</li>
+                        </ul>
+                        </div>
+                    </div>                        
+                    </div>
+              
+            </div>
+                        <div class="line-footer"></div>
+            <div class="footer-end">
+                
+                    <p>©2022 MORENT. All rights reserved</p>
+                <div class="policy">
+                    <p>Privacy & Policy</p>
+                    <p>Terms & Condition</p>
+                </div>
+            </div>
+           
+        </div>
+     </footer>
+
+</body>
+
+</html>

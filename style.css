@@ -1,0 +1,511 @@
+:root {
+    --primary-color: #3563E9;
+    --secondary-color: #1A202C;
+    --third-color: #FFFFFF;
+    --card1-color: #54A6FF
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: #F6F7F9;;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C3D4E966;
+    border: 1px solid #C3D4E966;
+}
+
+.logo-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+
+    & h1 {
+        padding-block: 40px;
+        padding-left: 60px;
+        color: var(--primary-color);
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 150%;
+    }
+
+    & input {
+        width: 492px;
+        padding-block: 12px;
+        padding-left: 64px;
+
+    }
+
+}
+
+.input {
+    position: relative;
+
+    & .search-icon {
+        position: absolute;
+        left: 20px;
+        top: 10px;
+    }
+
+    & .settings-icon {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+
+
+}
+
+
+.navigation {
+    padding-block: 40px;
+    padding-right: 32px;
+
+    & ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        gap: 20px;
+
+
+    }
+
+}
+
+main {
+    padding: 32px 64px 64px 64px;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: var(--third-color);
+
+    & .expensive-car {
+        width: 640px;
+        background-color: var(--card1-color);
+        border-radius: 10px;
+        padding-top: 24px;
+        padding-left: 24px;
+
+        & h2 {
+            width: 331px;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 150%;
+            text-transform: uppercase;
+        }
+
+        & p {
+            width: 282px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            padding-top: 16px;
+            padding-bottom: 20px;
+        }
+
+        & button {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 150%;
+            color: var(--third-color);
+            background-color: #3563E9;
+            padding: 10px 20px;
+            border-radius: 4px;
+            border: none;
+        }
+
+        & img {
+            position: relative;
+            left: 50%;
+            bottom: 0px;
+            transform: translate(-50%, -1rem);
+        }
+    }
+}
+
+& .budget-car {
+    width: 640px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding-top: 24px;
+    padding-left: 24px;
+
+    & h2 {
+        width: 331px;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 150%;
+        text-transform: uppercase;
+    }
+
+    & p {
+        width: 282px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        padding-top: 16px;
+        padding-bottom: 20px;
+    }
+
+    & button {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+        color: var(--third-color);
+        background-color: var(--card1-color);
+        padding: 10px 20px;
+        border-radius: 4px;
+        border: none;
+    }
+
+    & img {
+        position: relative;
+        left: 50%;
+        bottom: 0px;
+        transform: translate(-50%, -1rem);
+    }
+}
+.container{
+      max-width: 1450px;  
+  margin: 0 auto;
+  padding: 32px 64px;
+}
+.order-wrapper{
+    display: flex;
+    align-items: center;
+     gap: 44px;
+& .pick-up{
+    width: 582px;
+    background-color: var(--third-color);
+    padding : 16px 48px;
+ 
+    & .location-wrapper{
+        display: flex;
+        gap: 48px;
+ 
+        & .each-location{
+            display: flex;
+            flex-direction: column;
+            width: 126px;
+             & label {
+                color: var(--secondary-color);
+         font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+                padding-block: 15px;
+                
+    }
+     & input {border: none;
+        display: flex;
+                }
+     & select{
+        border: none;
+        color: #90A3BF;
+      }
+ 
+    
+    }
+}
+}
+ 
+
+& .drop-off
+ {width: 582px;
+    background-color: var(--third-color);
+ }
+}
+
+.arrows{
+    & button
+    {
+        & img{
+            width: 60px;
+        }
+    } 
+}
+
+.line{
+    width: 1px;
+     background-color: red;
+    align-self: stretch;
+    
+}
+.arrows button{
+    background-color: blue;
+    padding: 18px;
+    width: 60px;
+    border-radius: 10px;
+    border: none;
+& img{
+    width: 100%;
+    height: 100%;
+
+}
+}
+
+  
+     .cards-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-block: 30px;
+        padding-inline: 24px;
+        & p{
+            color: #90A3BF;
+             font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        }
+          & span{
+            color: #3563E9
+;
+             font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        }
+    }
+ 
+.cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+      gap: 32px;
+      background-color: #F6F7F9;
+.card-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    padding: 24px;
+    background-color: var(--third-color);
+    width: 304px;
+    & .Koenigsegg{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+             font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+    
+    }
+        & .car-image{
+            width: 232px;
+            padding-block: 64px;
+            display: block;
+        }
+    & .sport{
+       font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        color: #90A3BF;   
+    }
+    & .car-description{
+        display: flex;
+        gap: 16px;
+        & .each-description{
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            white-space: nowrap;
+         }
+      
+    }
+        & .price{
+            
+            padding-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 24px;
+               
+             & p{
+                    font-weight: 700;
+        font-size: 20px;
+        line-height: 100%;
+           & span{
+                 font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        color: #90A3BF;  
+            }
+        }
+            span{
+                color: #90A3BF;
+                font-weight: 700;
+        font-size: 14px;
+        line-height: 100%;
+            text-decoration: line-through;
+
+            }
+
+
+    
+
+            
+         
+          
+        & button{
+            background-color: blue;
+            padding: 10px 20px;
+               font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        border-radius: 8px;
+        border: none;
+            white-space: nowrap;
+            color: var(--third-color);
+        }
+         }
+}
+}
+
+    .recomened{
+       
+        padding-block: 24px;
+        padding-left: 24px;
+             color: #90A3BF;
+             font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+       }     
+    .Show-more{
+        margin-block: 64px;
+         display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: auto;
+        position: relative;       
+        & button{
+            background-color:#3563E9 ;
+            color: white;
+                    padding: 10px 20px;
+                      border: none;
+        border-radius: 4px;
+
+        }
+        & span{
+            position: absolute;
+            right: 0px;
+              font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        color: #90A3BF;
+        }
+    }
+    
+    body{
+        background-color: #F6F7F9;
+    }
+    
+
+    .footer-wrapper{
+         padding-left: 60px;
+        padding-block: 40px;
+         display: flex;
+        justify-content: space-between;
+        background-color: var(--third-color);
+         & .logo-footer{
+            
+            & span{
+                display: inline-block;
+                width: 292px;
+                color:#13131399;
+                  font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;   
+        padding-top: 16px;
+            }
+           & p{
+             font-weight: 700;
+        font-size: 32px;
+        line-height: 150%;   
+            color: var(--primary-color);
+            }
+
+        }
+        & .footer-desc{
+            
+            display: flex;
+            flex-direction: column;
+             justify-content: center;
+             gap: 24px;
+             padding-right: 60px;
+             & .footer-flex{ 
+                display: flex;
+                gap: 60px;
+                & .line-wrapper{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px;
+                }
+          & ul{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+           
+             & li{
+             list-style: none;
+ 
+                 font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;   
+        color: #13131399;
+            }
+        }
+        }
+        }
+    }
+
+
+     .title {
+                color: #1A202C;
+                 font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;      
+            } 
+
+    .line-footer{
+        width: 100%;
+        height: 1px;
+        background-color: #13131329;
+    }        
+
+    .footer-end{
+        padding: 36px 60px;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        padding-block: 25px;
+        
+          & p{color:#1A202C;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%; 
+        }
+        & .policy{
+            display: flex;
+            gap: 60px;
+        }
+        }
+   
